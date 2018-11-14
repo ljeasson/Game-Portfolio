@@ -1,0 +1,345 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 10px;
+  font-size: 40px;
+  font-family: "Arial", Times, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+  /*White Background*/
+  background: rgb(242, 242, 242);
+
+  /*Using an image as a background*/
+  background-image: url(../img/cool-minty-green-tileable-grunge-patterns-part-2-14.jpg);
+}
+
+a {
+  text-decoration: none;
+}
+
+.animated {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.main-header {
+  flex: 0 1 auto;
+}
+
+.header-image {
+  display: block;
+  width: 15%;
+  margin: 0;
+}
+
+.logo-title {
+  /*background: red;*/
+  background: rgb(215, 33, 33);
+  color: white;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 72px;
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin-top: 10px;
+  margin-bottom: auto;
+
+}
+
+.logo-subtitle {
+  /*background: red;*/
+  background: rgb(215, 33, 33);
+  color: white;
+
+  text-align: center;
+  text-transform: none;
+  font-size: 48px;
+  font-family: 'Press Start 2P', sans-serif;
+
+  margin: auto;
+
+}
+
+/**************************************************************************/
+/* Add a black background color to the top navigation */
+.topnav {
+    background: rgb(150,150,150);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #4CAF50;
+    color: white;
+}
+/**************************************************************************/
+
+.blurb-text-header {
+  font-size: 30px;
+  font-family: 'Press Start 2P', sans-serif;
+
+  text-align: center;
+}
+
+.blurb-text {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+
+  line-height: 25px;
+
+  margin-left: 150px;
+  margin-right: 150px;
+
+  text-align: center;
+}
+
+/*@-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}*/
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+/*GRID===============================================================*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 24px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 33%;
+  padding: 0 52px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*GAME===============================================================*/
+
+.game_image {
+  align-items: center;
+  display: block;
+  margin: auto;
+
+  border: none;
+  outline: none;
+}
+
+.game_button {
+  align-items: center;
+  display: block;
+  margin: auto;
+}
+
+/*===================================================================*/
+
+.thumbnail-item {
+  display: inline-block;
+  min-width: 120px;
+  max-width: 120px;
+  border: 1px solid rgb(100%, 100%, 100%);
+  border: 1px solid rgba(100%, 100%, 100%, 0.8);
+
+  transition: transform 133ms ease-in-out;
+}
+
+.thumbnail-item:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail-list {
+  /*flex: 0 1 7.05em;
+  order: 2;
+  display: inline-block;*/
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px 10px;
+
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.thumbnail-image {
+  display: block;
+  width: 100%;
+  margin: auto;
+
+  border: none;
+  outline: none;
+}
+
+.thumbnail-title {
+  display: block;
+  margin: inherit;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px 10px;
+
+  /*width: 100%;*/
+
+  /*background: rgb(255, 0, 0);*/
+  background: rgb(215, 33, 33);
+  /*color: rgb(255, 255, 255);*/
+  color: rgb(242, 242, 242);
+  /*color: rgb(0,0,0);*/
+
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.contact {
+  display: block;
+
+  border: none;
+  outline: none;
+
+  margin-left: 20px;
+
+  padding: 0 16px;
+}
+
+.footer-text {
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/********************************************************/
+@media all and (min-width: 786px) {
+  .main-content {
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .thumbnail-list {
+    flex-direction: column;
+    order: 0;
+    margin-left: 20px;
+
+  }
+
+  .thumbnail-item {
+    max-width: 260px;
+  }
+
+  .thumbnail-item + .thumbnail-item {
+    margin-top: 20px;
+  }
+}
+/*****************************************/
+@media all and (orientation:portrait) {
+  .detail-image-title {
+    position: absolute;
+    bottom: -85px;
+    left: -15px;
+
+    font-family: 'Press Start 2P', sans-serif;
+    color: Gray;
+    text-shadow: rgba(255, 254, 84, 0.9) 5px 5px 2px;
+    font-size: 35px;
+  }
+
+  .detail-image {
+    order: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/******************************************/
+@media all and (orientation:landscape) {
+  .logo-title {
+    font-size: 50px;
+  }
+
+  .logo-subtitle {
+    font-size: 36px;
+  }
+
+  .detail-image-title {
+    position: absolute;
+    bottom: 235px;
+    left: -25px;
+    right: -75px;
+
+    font-family: 'Press Start 2P', sans-serif;
+    color: Gray;
+    text-shadow: rgba(255, 254, 84, 0.9) 5px 5px 2px;
+    font-size: 25px;
+  }
+
+  .detail-image {
+    width: 125%;
+    align-self: center;
+    flex: 1 0 auto;
+    padding-top: 25px;
+  }
+}
