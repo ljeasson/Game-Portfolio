@@ -50,13 +50,12 @@ a {
   font-size: 72px;
   font-family: 'Press Start 2P', sans-serif;
 
-  margin-top: 10px;
+  margin-top: auto;
   margin-bottom: auto;
 
 }
 
 .logo-subtitle {
-  /*background: red;*/
   background: rgb(215, 33, 33);
   color: white;
 
@@ -193,9 +192,7 @@ a {
 /*===================================================================*/
 
 .thumbnail-item {
-  display: inline-block;
-  min-width: 120px;
-  max-width: 120px;
+  display: list-item;
   border: 1px solid rgb(100%, 100%, 100%);
   border: 1px solid rgba(100%, 100%, 100%, 0.8);
 
@@ -251,22 +248,28 @@ a {
 .contact {
   display: block;
 
+  max-width: 120px;
+  max-height: 120px;
+    
   border: none;
   outline: none;
 
+  margin-top: 20px;
   margin-left: 20px;
 
   padding: 0 16px;
+}
+
+.contact_text {
+    font-size: 24px;
 }
 
 .footer-text {
   font-size: 15px;
   font-family: 'Ubuntu', sans-serif;
 
-  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
-
-  position: absolute;
 
   right: 0;
   bottom: 0;
@@ -287,11 +290,12 @@ a {
   }
 
   .thumbnail-item {
-    max-width: 260px;
+    max-width: 
+        100%;
   }
 
   .thumbnail-item + .thumbnail-item {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 /*****************************************/
