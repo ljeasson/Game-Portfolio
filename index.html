@@ -1,48 +1,88 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Oxonian Games</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="stylesheets_portfolio/stylesheets_portfolio.css">
-  <link rel="shortcut icon" href="/img/favicon_new.ico" type="image/png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P|Ubuntu">
+    <!--IMPORTANT FOR RESPONSIVE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Normalize-->
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <!--Fluid grid-->
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <!--Website CSS-->
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <!--Google font LATO-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+    <!--Ionicon fonts-->
+    <link href="https://unpkg.com/ionicons@4.5.9-1/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <title>Oxonian Games - Home</title>
 </head>
 
 <body>
-  <header class="main-header">
-    <img class="header-image" src="img/Oxonian Games Logo_transparent.png" alt="Oxonian Games">
-    <h1 class="logo-title">Welcome</h1>
-    <div class="topnav" id="myTopnav">
-      <a href="contact.html">Contact Us</a>
-      <a href="game.html">Games</a>
-      <a href="index.html">Home</a>
-    </div>
-  </header>
-    
-  <!-- Slideshow container -->
-    <div class="slideshow-container">
+    <header>
+        <!--Navigation Ribbon-->
+        <nav>
+            <div class="row">
+                <a href="index.html"><img src="resources/img/logo2.png" alt="Oxonian games logo" class="logo"></a> 
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resources/about.html">About Us</a></li>
+                    <li><a href="resources/games.html">Games</a></li>
+                    <!--FOR DROPDOWN
+                    <li>
+                        <div class="dropdown">
+                            <a href="#" class="dropbtn">Dropdown</a>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </nav>
 
-        <!-- Full-width images with caption text -->
-        <div class="mySlides fade">
-            <img src="img/Odd%20Infinitum.png" style="width:100%">
-            <div class="text">"Fear the Infinitum"</div>
+        <!--vertically and horizontally centered container-->
+        <div class="header-title">
+            <h1>Oxonian Games</h1>
+            <!--social buttons-->
+            <a href="https://www.instagram.com/oxoniangames/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a> 
+            <a href="https://twitter.com/GamesOxonian" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a> 
+            <a href="https://www.facebook.com/oxoniangames/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a> 
+        </div>
+    </header> 
+    
+    <!--
+    <section class="about-section">
+        <div class="row">
+            <h2>About Oxonian Games</h2>
         </div>
 
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
+    </section>
+    -->
+    
+    <!--
+    <footer>
+        <p class="copyright">
+            "Copyright Oxonian Games"
+            <span>&nbsp;|&nbsp;</span>
+             All Rights Reserved. 
+            <span>&nbsp;|&nbsp;</span>
+            <a href="#">Privacy Policy</a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="#">Facebook</a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="#">Instagram</a>
 
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+        </p>
+    </footer>
+    -->
 
-  <script src="scripts/main.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+
 </body>
 
 </html>

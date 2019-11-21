@@ -1,0 +1,31 @@
+/*will taget ipad and all smaller computers
+the row was defined as 1140px. big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    .header-title {
+        /*absolutely positioned box*/
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+
+/*will target ipad in portrait mode, in landscape mode has 1024 pixels so doesn't targetthat
+small tablets to big tablets*/
+@media only screen and (max-width: 1023px) {
+
+}
+
+/*a little bigger phones. Width of the ipad is 768 therefore anything smaller than ipad*/
+@media only screen and (max-width: 767px) {
+
+}
+
+/*will apply when the width of the browser is less or equal to the 480px*/
+/*small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+
+}
