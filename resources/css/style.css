@@ -131,8 +131,28 @@ header {
 
 .header-title {
     text-align: center;
-    margin-top: 180px;
-    cursor: default;
+    display: block;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.header-interior {
+    vertical-align: middle;
+    display: inline-block;
+    height: 50%;
+    position: absolute;
+    top: 68%;
+    bottom: 30%;
+    margin: auto;
+    left: 8%;
+    right: 8%;
+}
+
+.header-logos {
+    padding-left: 60px;
 }
 
 header.about {
