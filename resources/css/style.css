@@ -98,6 +98,15 @@ h2:after {
     margin-top: 15px;
 }
 
+
+/*homepage footer*/
+.footer-info {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
 /*Games page*/
 .sub-page-title h1.games:after {
     width: 55px;
@@ -114,6 +123,11 @@ h2:after {
 
 section {
     padding: 80px 0;
+}
+
+nav {
+    position: relative;
+    z-index: 1000;
 }
 
 /*-------------------------------------------------------*/
@@ -271,13 +285,7 @@ body.about {
 /*FOOTER*/
 /*-------------------------------------------------------*/
 
-footer {
-    clear: both;
-    background-color: black;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+.footer-info h6 {
+    color: rgba(255, 255, 255, 0.685);
+    font-weight: 300;
 }
