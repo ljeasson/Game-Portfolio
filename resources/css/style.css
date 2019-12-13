@@ -75,6 +75,7 @@ h2:after {
     text-align: center;
     margin-top: 10px;
     cursor: default;
+    margin-bottom: 80px;
 }
 
 .sub-page-title h1 {
@@ -281,6 +282,22 @@ body.about {
     padding: 0;
 }
 
+.game-titles {
+    margin: 0 100px;
+}
+
+.game_tile {
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: transform 0.2s;
+}
+
+.game-titles .row input:hover {
+    transform: scale(1.1);
+}
 /*-------------------------------------------------------*/
 /*FOOTER*/
 /*-------------------------------------------------------*/
