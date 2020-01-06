@@ -211,6 +211,10 @@ header ion-icon:hover {
     padding: 0;
 }
 
+.navbar-toggler {
+    margin-top: 1.2rem;
+}
+
 .main-nav {
     margin-top: 17px;
     float: right;
@@ -223,11 +227,6 @@ header ion-icon:hover {
 }
 
 .main-nav li a:link, .main-nav li a:visited {
-    padding: 8px 0;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppdercase;
-    font-size: 90%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.2s, color 0.2s;
 }
