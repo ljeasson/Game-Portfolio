@@ -76,7 +76,7 @@ h2:after {
 /*About page*/
 .sub-page-title {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
     cursor: default;
     margin-bottom: 80px;
 }
@@ -149,20 +149,14 @@ header {
 
 .header-title {
     text-align: center;
-    display: block;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 .header-interior {
     vertical-align: middle;
     display: inline-block;
-    height: 50%;
+    height: 19%;
     position: absolute;
-    top: 68%;
+    top: 38%;
     bottom: 30%;
     margin: auto;
     left: 8%;
@@ -176,17 +170,6 @@ header {
 header.about {
     background-image: none;
 }
-
-/*
-.header-title {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: default;
-}
-*/
 
 header ion-icon {
     color: #fff;
@@ -207,6 +190,11 @@ header ion-icon:hover {
     margin-top: 20px;
 }
 
+
+/*-------------------------------------------------------*/
+/*NAVIGATION*/
+/*-------------------------------------------------------*/
+
 .navbar {
     padding: 0;
 }
@@ -220,13 +208,8 @@ header ion-icon:hover {
     padding-left: 0px;
 }
 
-.main-nav {
-    margin-top: 17px;
-    float: right;
-    list-style: none;
-}
-
 .main-nav li {
+    margin-top: 17px;
     margin-left: 40px;
 }
 
@@ -283,6 +266,23 @@ body.about {
 .game-titles .row input:hover {
     transform: scale(1.1);
 }
+
+.col-sm {
+    text-align: center;
+}
+
+/*-------------------------------------------------------*/
+/*ABOUT PAGE*/
+/*-------------------------------------------------------*/
+.about-contents {
+    text-align: justify;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /*-------------------------------------------------------*/
 /*FOOTER*/
 /*-------------------------------------------------------*/
