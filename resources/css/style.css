@@ -264,9 +264,12 @@ body.about {
 }
 
 .game-titles .row input:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
 
+.game-titles .row input:active {
+    transform: scale(1.055);
+}
 .col-sm {
     text-align: center;
 }
