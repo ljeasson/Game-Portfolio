@@ -215,6 +215,11 @@ header ion-icon:hover {
     margin-top: 1.2rem;
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .main-nav {
     margin-top: 17px;
     float: right;
@@ -222,7 +227,6 @@ header ion-icon:hover {
 }
 
 .main-nav li {
-    font-weight: 300;
     margin-left: 40px;
 }
 
