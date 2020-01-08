@@ -9,12 +9,12 @@
 
 body {
   background-image: url("img/Odd Infinitum Background.png");
+  text-align: center;
 }
 
 .container {
-  width: 800px;
-  height: 240px;
-  margin: auto;
+  width: 550px;
+  margin-top: 50px;
 }
 
 .container img {
@@ -25,6 +25,10 @@ body {
 .logo {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.video {
+  margin-top: 50px;
 }
 
 * {box-sizing:border-box}
@@ -102,6 +106,17 @@ body {
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+.game-widget {
+  background-color: #28231f;
+  width: 500px;
+  border-radius: 4px;
+}
+
+.widget-frame {
+  margin-top: 9px;
+  margin-bottom: 1px;
 }
 
 /* Fading animation */
