@@ -160,7 +160,7 @@ header {
     display: inline-block;
     height: 19%;
     position: absolute;
-    top: 30%;
+    top: 25%;
     bottom: 30%;
     margin: auto;
     left: 8%;
@@ -168,7 +168,7 @@ header {
 }
 
 .header-logos {
-    padding-left: 60px;
+    padding-left: 47px;
 }
 
 header.about {
@@ -181,6 +181,14 @@ header ion-icon {
     margin-right: 50px;
     margin-top: 10px;
     transition: color 0.2s;
+}
+
+.games-button {
+    padding-top: 20px;
+}
+
+.games-button button {
+    color: rgb(167, 167, 167);
 }
 
 header ion-icon:hover {
