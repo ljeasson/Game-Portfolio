@@ -187,8 +187,13 @@ header ion-icon {
     padding-top: 20px;
 }
 
-.games-button button {
-    color: rgb(167, 167, 167);
+
+.games-button a {
+    color: rgb(228, 228, 228);
+}
+
+.games-button a:hover {
+    color: #d63031;
 }
 
 header ion-icon:hover {
