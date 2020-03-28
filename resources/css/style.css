@@ -168,7 +168,7 @@ header {
 }
 
 .header-logos {
-    padding-left: 60px;
+    padding-left: 47px;
 }
 
 header.about {
@@ -181,6 +181,19 @@ header ion-icon {
     margin-right: 50px;
     margin-top: 10px;
     transition: color 0.2s;
+}
+
+.games-button {
+    padding-top: 20px;
+}
+
+
+.games-button a {
+    color: rgb(228, 228, 228);
+}
+
+.games-button a:hover {
+    color: #d63031;
 }
 
 header ion-icon:hover {
@@ -299,4 +312,5 @@ body.about {
 .footer-info h6 {
     color: rgba(255, 255, 255, 0.685);
     font-weight: 300;
+    font-size: 0.7rem;
 }
