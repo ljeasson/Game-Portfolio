@@ -137,6 +137,15 @@ body {
   animation-duration: 1.5s;
 }
 
+.home-link {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.home-link a {
+  text-decoration: none;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
