@@ -160,7 +160,7 @@ header {
     display: inline-block;
     height: 19%;
     position: absolute;
-    top: 30%;
+    top: 20%;
     bottom: 30%;
     margin: auto;
     left: 8%;
@@ -207,6 +207,43 @@ header ion-icon:hover {
     margin-top: 20px;
 }
 
+.dropdown {
+    margin-top: 20px;
+}
+
+.dropdown-menu { 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-menu-center {
+    right: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.dropdown #dropdownMenuLink {
+    border-color: #000;
+    color: rgb(223, 223, 223);
+    transition: color 0.2s;
+}
+
+.dropdown #dropdownMenuLink:hover, .dropdown #dropdownMenuLink:focus {
+    /* background-color: black;
+    color: #d63031; */
+    color: #d63031; 
+    background-color: #161617; 
+    border-color: #494F57;
+    box-shadow: none;
+}
+
+.dropdown-menu label {
+    color: seashell;
+}
+
+.dropdown-menu input {
+    margin-top: 10px;
+}
 
 /*-------------------------------------------------------*/
 /*NAVIGATION*/
