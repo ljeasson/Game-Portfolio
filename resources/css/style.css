@@ -183,6 +183,15 @@ header ion-icon {
     transition: color 0.2s;
 }
 
+.discord-logo img {
+    width: 30px;
+    padding-bottom: 12px;
+}
+
+/* .discord-logo img:hover {
+    color: #d63031;
+} */
+
 .games-button {
     padding-top: 20px;
 }
