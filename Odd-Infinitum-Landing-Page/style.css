@@ -155,3 +155,42 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/*-------------------------------------------------------*/
+/*NAVIGATION*/
+/*-------------------------------------------------------*/
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler {
+    margin-top: 1.2rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.main-nav li {
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+.main-nav li a:link, .main-nav li a:visited {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.main-nav li a:hover, .main-nav li a:active {
+    border-bottom: 2px solid #d63031;
+    cursor: pointer;
+}
+
+* {box-sizing:border-box}
+
+
+/*-------------------------------------------------------*/
+/*SLIDESHOW*/
+/*-------------------------------------------------------*/
