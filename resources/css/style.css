@@ -360,3 +360,22 @@ body.about {
     font-weight: 300;
     font-size: 0.7rem;
 }
+
+/*-------------------------------------------------------*/
+/*RESPONSIVENESS*/
+/*-------------------------------------------------------*/
+@media only screen and (max-width:480px){
+    .header-logos {
+        padding-left: 25px;
+    }
+    header ion-icon {
+        font-size: 23px;
+        margin-right: 28px;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    body {
+        overflow: hidden;
+    }
+}
