@@ -143,7 +143,7 @@ nav {
 /*-------------------------------------------------------*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/oxonian_final_retryeli.png);
     /*Background stays still when you scroll*/
     background-attachment: fixed; 
     background-size: cover;
@@ -172,7 +172,8 @@ header {
 }
 
 header.about {
-    background-image: none;
+    /*background-image: none;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/wip.png);
 }
 
 header ion-icon {
@@ -291,7 +292,7 @@ header ion-icon:hover {
 /*-------------------------------------------------------*/
 body.about {
     background-color: #000000;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/oxonian_final_retryeli);
     /*Background stays still when you scroll*/
     background-attachment: fixed;
     background-size: cover;
@@ -304,7 +305,7 @@ body.about {
 /*-------------------------------------------------------*/
 
 .section-games {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background-temp.jfif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/oxonian_final_retryeli);
     /*Background stays still when you scroll*/
     background-attachment: fixed;
     background-size: cover;
